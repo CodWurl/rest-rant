@@ -6,12 +6,17 @@ const express = require('express')
 //Express app initialized
 const app = express()
 
+app.set('veiw engine', 'jsx')
+app.engine ('jsx', require('express-react-views').createEngine())
+
 //HTTP require for places page
 app.use('/places', require('./controllers/places'))
 
-//HTTP require for Hello World! page
+
+
+//HTTP require for Hello World! page Home Page
 app.get('/', (req, res) => {
-    res.send('Hello world!')
+    res.render('Home')
 })
 
 //HTTP require for 404 page
