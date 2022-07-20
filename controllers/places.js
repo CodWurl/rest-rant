@@ -2,8 +2,7 @@
 
 // Invoked for any requests passed to this router
 const router = require('express').Router()
-const React = require ('react')
-const Def = require ('./default')
+
 
 
 // Handles places request
