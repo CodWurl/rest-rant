@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 //HTTP require for 404 page
 app.get('*', (req, res)=> {
-    res.status(404).send('<h1>404 Page</h1>')
+    res.render('error404')
 })
 
 //Port variable pulled from env file
