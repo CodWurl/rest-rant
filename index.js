@@ -24,6 +24,10 @@ app.get('*', (req, res)=> {
     res.render('error404')
 })
 
+
+
+  
+
 //Port variable pulled from env file
 app.listen(process.env.PORT)
 

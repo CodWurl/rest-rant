@@ -5,6 +5,7 @@ const router = require('express').Router()
 
 
 
+
 // Handles places request
 router.get('/', (req, res)=>{
     let places = [{
