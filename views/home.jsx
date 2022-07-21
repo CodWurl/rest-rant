@@ -1,6 +1,8 @@
+//Importing React and Def function
 const React = require ('react')
 const Def = require ('./default')
 
+//Adding home page view
 function home (){
     return(
         <Def>
@@ -13,4 +15,5 @@ function home (){
 
 }
 
+//code to export from home
 module.exports = home

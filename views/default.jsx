@@ -1,7 +1,8 @@
+//React import
 const React = require ('react')
 
 
-
+//Adding default view for layout
 function Def (html) {
     return (
         <html>
@@ -15,5 +16,5 @@ function Def (html) {
     )
   }
        
-
+//Exporting Def function
 module.exports = Def

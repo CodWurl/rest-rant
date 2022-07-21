@@ -1,6 +1,7 @@
 const React = require ('react')
 const Def = require ('./default')
 
+//Adding 404 page view
 function error404 () {
 return (
     <Def>
@@ -13,4 +14,5 @@ return (
 
 }
 
+//code to export from error404
 module.exports = error404

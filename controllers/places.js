@@ -7,6 +7,7 @@ const router = require('express').Router()
 
 
 // Handles places request
+//Places array
 router.get('/', (req, res)=>{
     let places = [{
         name: 'H-Thai-ML',
@@ -21,7 +22,8 @@ router.get('/', (req, res)=>{
         cuisines: 'Coffee, Bakery',
         pic: 'http://placekitten.com/250/250'
       }]
-      
+    
+    //Renders Places View  
     res.render('places/index',{places})
 
 })

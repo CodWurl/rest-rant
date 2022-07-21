@@ -6,6 +6,7 @@ const express = require('express')
 //Express app initialized
 const app = express()
 
+//JSX View Engine
 app.set('view engine', 'jsx')
 app.engine ('jsx', require('express-react-views').createEngine())
 
