@@ -9,6 +9,7 @@ const app = express()
 //JSX View Engine
 app.set('view engine', 'jsx')
 app.engine ('jsx', require('express-react-views').createEngine())
+app.use(express.static('public'))
 
 //HTTP require for places page
 app.use('/places', require('./controllers/places'))
