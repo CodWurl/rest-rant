@@ -9,7 +9,7 @@ function home() {
             <main>
              
             <h1>HOME</h1>
-            <link rel="stylesheet" href="/css/style.css" />
+            <link rel="stylesheet" href="style.css" />
             </main>
             <a href="/places"><button className="btn-primary">Places Page</button></a>
         </Def>
