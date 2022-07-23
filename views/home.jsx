@@ -9,6 +9,9 @@ function home() {
             <main>
              
             <h1>HOME</h1>
+            <div>
+                <img src ="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
+            </div>
             <link rel="stylesheet" href="style.css" />
             <a href="/places">
                 <button className="btn-primary">Places Page</button></a>
