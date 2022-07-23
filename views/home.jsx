@@ -10,8 +10,10 @@ function home() {
              
             <h1>HOME</h1>
             <link rel="stylesheet" href="style.css" />
+            <a href="/places">
+                <button className="btn-primary">Places Page</button></a>
             </main>
-            <a href="/places"><button className="btn-primary">Places Page</button></a>
+            
         </Def>
 
     )
