@@ -14,13 +14,15 @@ router.get('/', (req, res)=>{
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: '/images/rest-rant1.png'
+        pic: '/images/rest-rant1.jpg'
+        
+        
       }, {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: '/images/rest-rant2.png'
+        pic: '/images/rest-rant2.jpg'
       }]
     
     //Renders Places View  
