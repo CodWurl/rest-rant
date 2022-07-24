@@ -2,13 +2,17 @@
 const React = require('react')
 const Def = require('./default')
 
+//Added link to places
+//Activity Bonus Attempt
+const router = require('./places')
+
 //Adding home page view
 function home() {
     return (
         <Def>
             <main>
              
-            <h1>HOME</h1>
+            <h1>Rest-Rant</h1>
             <div>
                 <img src ="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
             <div>
