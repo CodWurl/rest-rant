@@ -14,8 +14,11 @@ function home() {
              
             <h1>Rest-Rant</h1>
             <div>
-                <img src ="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
-                <a href='/places'></a>
+                {/*<Link to="/places">*/}
+                <a href='/places'>
+                <img src ={"/images/chia-fruit-drink.jpg"} alt="Chia Fruit Shake" />
+                </a>
+                {/*<a href='/places'></a>*/}
             <div>
             Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
             </div>
