@@ -24,11 +24,18 @@ router.get('/', (req, res)=>{
         cuisines: 'Coffee, Bakery',
         pic: '/images/rest-rant2.jpg'
       }]
+
+      
     
     //Renders Places View  
     res.render('places/index',{places})
 
 })
+
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
 
 //Separating app into multiple modules
 //code to export from index.js 
